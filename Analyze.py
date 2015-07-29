@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+#To parse string like: "xxxxxxyyyyyyyyyyyyxxxxxxxx=  99 ms"
+#Analyze.py -f filename -s "xxxxxxx=" -d
+#Analyze.py -f filename -s "=" -d
+
 import sys
 import getopt
 import re
